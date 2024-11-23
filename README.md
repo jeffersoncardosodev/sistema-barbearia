@@ -1,11 +1,11 @@
 # Sistema de barbearia
 # Funcionalidades:
-• Agendar o horario de atendimento,
-• Listar todas as informaçoes como:
+• Agendar o horario de atendimento,<br/>
+• Listar todas as informaçoes como: <br/>
 (nome do cliente,
 servico desejado,
 barbeiro de sua preferencia,
 horario de data,
-forma de pagamento).
+forma de pagamento). <br/>
 • Enviar notificacao para o barbeiro selecionado para o servico!
   
