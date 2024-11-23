@@ -1,0 +1,105 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+  
+  #notifications {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #notifications li {
+    background: #e7f3ff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+    border-radius: 4px;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    header {
+      font-size: 1.2rem;
+      padding: 0.8rem;
+    }
+  
+    section {
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+  
+    form input, form select, form button {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      font-size: 1rem;
+      padding: 0.6rem;
+    }
+  
+    form input, form select, form button {
+      font-size: 14px;
+      padding: 6px;
+    }
+  
+    #notifications li {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
