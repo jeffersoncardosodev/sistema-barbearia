@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento - Barbearia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Barbearia</h1>
+  </header>
+
+  <main>
+    <section id="form-section">
+      <h2>Agendar Serviço</h2>
+      <form id="booking-form">
+        <label for="name">Nome do Cliente:</label>
+        <input type="text" id="name" required>
+
+        <label for="service">Serviço:</label>
+        <select id="service" required>
+          <option value="Corte de cabelo - R$30">Corte de cabelo - R$30</option>
+          <option value="Barba - R$20">Barba - R$20</option>
+          <option value="Combo (Cabelo + Barba) - R$45">Combo (Cabelo + Barba) - R$45</option>
+        </select>
+
+        <label for="barber">Escolha o Barbeiro:</label>
+        <select id="barber" required>
+          <option value="Jefferson">Jefferson</option>
+          <option value="Carlos">Carlos</option>
+        </select>
+
+        <label for="date">Data:</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Horário:</label>
+        <input type="time" id="time" required>
+
+        <label for="payment">Forma de Pagamento:</label>
+        <select id="payment" required>
+          <option value="Dinheiro">Dinheiro</option>
+          <option value="Cartão">Cartão</option>
+          <option value="Pix">Pix</option>
+        </select>
+
+        <button type="submit">Agendar</button>
+      </form>
+    </section>
+
+    <section id="notification-section">
+      <h2>Notificações</h2>
+      <ul id="notifications"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
