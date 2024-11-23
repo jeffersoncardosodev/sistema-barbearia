@@ -36,19 +36,11 @@ document.getElementById("booking-form").addEventListener("submit", function (eve
       - Forma de pagamento: ${payment}
     `;
 
-    // Formata o link do WhatsApp
-    const encodedMessage = encodeURIComponent(message.trim());
-    const whatsappLink = `https://wa.me/${barberPhones[barber]}?text=${encodedMessage}`;
-
-
-    // Redireciona para o WhatsApp
-    window.open(whatsappLink, "_blank");
-
   
     // Adiciona a notificação à lista
     const notificationList = document.getElementById("notifications");
     const listItem = document.createElement("li");
-    listItem.textContent = `Agendamento para ${barber} enviado via WhatsApp.`;
+    listItem.textContent = notification;
     notificationList.appendChild(listItem);
   
     // Limpa o formulário
