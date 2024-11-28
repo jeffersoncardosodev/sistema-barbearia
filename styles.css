@@ -27,23 +27,32 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  form label {
-    display: block;
-    margin-bottom: 5px;
+  form {
+    display: flex;
+    flex-direction: column;
   }
   
-  form input, form select, form button {
-    width: 100%;
+  form label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  form input,
+  form select {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
   }
+ 
   
   form button {
     background: #333;
     color: #fff;
     cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+
   }
   
   form button:hover {
@@ -80,6 +89,7 @@ body {
   
     form input, form select, form button {
       padding: 8px;
+      
     }
   }
   
