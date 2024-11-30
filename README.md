@@ -7,5 +7,5 @@ servico desejado,
 barbeiro de sua preferencia,
 horario de data,
 forma de pagamento). <br/>
-• Enviar notificacao para o barbeiro selecionado para o servico!
+
   
